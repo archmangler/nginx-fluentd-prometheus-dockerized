@@ -22,3 +22,7 @@ Application ports browsable on localhost:
 9090	: prometheus metrics
 
 (NOTE: if there is another fluentd server listening on 20 000 fleuntd node will send heartbeat there)
+
+Docker compose:
+
+- Docker compose file completes the lab by adding Grafana and a prometheus exporter.
