@@ -2,7 +2,7 @@ version: 2
 jobs:
    build:
      docker:
-       - image: circleci/bash:0.1
+       - image: circleci/python:0.1
      steps:
        - checkout
        - run: echo "hello world"
